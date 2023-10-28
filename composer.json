@@ -5,9 +5,11 @@
         "vlucas/phpdotenv": "^5.5",
         "php-di/php-di": "^7.0",
         "php-di/slim-bridge": "^3.4",
-        "doctrine/orm": "^2.16",
+        "doctrine/orm": "*",
         "symfony/cache": "^6.3",
-        "doctrine/migrations": "^3.6"
+        "doctrine/migrations": "^3.6",
+        "doctrine/dbal": "^3.7",
+        "doctrine/annotations": "^2.0"
     },
     "autoload": {
         "psr-4": {

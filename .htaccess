@@ -4,7 +4,7 @@
 </Files>
 
 RewriteEngine On
-RewriteBase /
+RewriteBase /app
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteRule ^$ public/ [L]
 RewriteRule (.*) public/$1 [L]
